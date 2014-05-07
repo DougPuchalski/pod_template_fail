@@ -5,6 +5,7 @@ Ember.MODEL_FACTORY_INJECTIONS = true;
 
 var App = Ember.Application.extend({
   modulePrefix: 'pod-template', // TODO: loaded via config
+  podModulePrefix: 'pod-template/pods',
   Resolver: Resolver
 });
 
